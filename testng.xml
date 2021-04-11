@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/sarakarthik/IdeaProjects/Courier-HealthChecks/src/test/java/stepDefinitions/HomePageSteps.java"><classes><class name="stepDefinitions.HomePageSteps"><methods><include name="iAcceptThePolicy"/><include name="i_land_on_homepage"/></methods></class></classes></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="2" >
+
+    <listeners>
+        <listener class-name="testRunner.NGTestListener" />
+    </listeners>
+
+    <test name="Complete test run">
+    <classes>
+        <class name="testRunner.JunitTestRunner"/>
+    </classes>
+    </test>
+
+</suite>
